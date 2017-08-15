@@ -1,0 +1,242 @@
+/*four caption*/
+.left-column{
+width: 50%;  
+float: left;
+}
+.right-column{
+width: 50%;
+float: left;
+}
+
+.lowerLeft{
+width: 30%;
+float: left;
+margin-right: 2.2em;
+margin-left: 0.4em;
+}
+.lowerMid{
+width: 30%;
+float: left;
+margin-right: 2.2em;
+}
+.lowerRight{
+width: 30%;
+float: left;
+}
+/*module 1*/
+.module11 {
+  margin: 2px;
+  width: 625px;
+  height: 300px;
+  float: left;
+  background: url(http://gato-docs.its.txstate.edu/jcr:9a4adbdd-1007-4f8b-9440-5b3133980b41/Science%20of%20Player%20Safety.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  cursor: pointer;
+  background-position: center center;
+  transition: all .5s ease-in-out;
+  border-radius: 20px 0 0 0;
+}
+.module11:hover {
+    cursor: pointer;
+    transform: scale(1.01);
+    display: inline;
+    z-index:10;
+    transform-origin: top left;
+    border-radius: 20px 0;
+     /*background-size: 125% 125%;*/
+}
+.module11 h2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 0.7rem 0.7rem;
+    color: white;
+    margin: 0;
+    font-size: 16px;
+    top: auto;
+    line-height:2.5rem
+}
+.module11:hover h2{
+border-radius: 0 0 0 0;
+}
+.opp1 h2 {
+  background: rgba(255, 255, 255, 0.5);
+  color: #501214;
+}
+  /*module 2*/
+.module22 {
+  margin: 2px;
+ width: 625px;
+  height: 300px;
+  float: left;
+  background: url(http://gato-docs.its.txstate.edu/jcr:b0ef49a9-a44e-4ae6-91c6-2ac901978c06/dr-ty-PsychologyFaculty.png);
+  background-size: cover;
+  position: relative;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-position: center center;
+  transition: all .5s ease;
+  background-size: 100% auto;
+  border-radius: 0 20px 0 0;
+}
+.module22:hover {
+    cursor: pointer;
+    transform: scale(1.01);
+    display: inline;
+    z-index:10;
+    transform-origin: top right;
+    border-radius: 0 20px;
+     /*background-size: 125% 125%;*/
+}
+.module22 h2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 0.7rem 0.7rem;
+    color: white;
+    margin: 0;
+    font-size: 16px;
+    top: auto;
+    line-height:2.5rem
+}
+.module22:hover h2{
+    border-radius: 0 0 0 20px;
+}
+
+.opp2 h2 {
+  background: rgba(255, 255, 255, 0.5);
+  color: #501214;
+}
+/*module 3*/
+.module33 {
+  margin: 0px;
+  width: 410px;
+  height: 240px;
+  float: left;
+  background: url(http://gato-docs.its.txstate.edu/jcr:a048f9b2-d31e-47eb-9588-b45e02937038/osta-1.jpg);
+  background-size: cover;
+  position: relative;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-position: center center;
+  transition: all .5s ease;
+  background-size: 100% auto;
+  border-radius: 0 0 0 20px;
+}
+.module33:hover {
+   cursor: pointer;
+    transform: scale(1.01);
+    display: inline;
+    z-index:10;
+    transform-origin: bottom left;
+     /*background-size: 125% 125%;*/
+     border-radius: 0 20px;
+}
+.module33 h2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 0.7rem 0.7rem;
+    color: white;
+    margin: 0;
+    font-size: 16px;
+    top: auto;
+    line-height:2.5rem;
+    border-radius: 0 0 0 20px;
+}
+
+.opp3 h2 {
+  background: rgba(255, 255, 255, 0.5);
+  color: #501214;
+}
+/*module 4*/
+.module44 {
+  margin: 0px;
+  width: 410px;
+  height: 240px;
+  float: left;
+  /*background: url(http://gato-docs.its.txstate.edu/jcr:95755be3-3ab6-4c13-9630-3985b5643007/bubbles.jpg);*/
+  background: url(http://gato-docs.its.txstate.edu/jcr:ac7fafaa-19fc-4b5c-8b6a-35ca0c8312a3/pocket_size_lab_new11.png);
+  background-size: cover;
+  position: relative;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-position: center center;
+  transition: all .5s ease;
+  background-size: 100% auto;
+  border-radius: 0 0 0 0;
+}
+.module44:hover {
+    cursor: pointer;
+    transform: scale(1.01);
+    display: inline;
+    z-index:10;
+    transform-origin: bottom center;
+     /*background-size: 125% 125%;*/
+    border-radius: 0;
+}
+.module44 h2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 0.7rem 0.7rem;
+    color: white;
+    margin: 0;
+    font-size: 16px;
+    top: auto;
+    line-height:2.5rem
+}
+
+.opp4 h2 {
+  background: rgba(255, 255, 255, 0.5);
+  color: #501214;
+}
+/*module 5*/
+.module55 {
+  margin: 0px;
+  width: 410px;
+  height: 240px;
+  float: left;
+  background: url(http://gato-docs.its.txstate.edu/jcr:9075cbdb-c306-4b9d-8aef-6004909305c3/research_beyond_borders.JPG);
+  background-size: cover;
+  position: relative;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-position: center center;
+  transition: all .5s ease;
+  background-size: 100% auto;
+  border-radius: 0 0 20px 0;
+}
+.module55:hover {
+    cursor: pointer;
+    transform: scale(1.01);
+    display: inline;
+    z-index:10;
+    transform-origin: bottom right;
+     /*background-size: 125% 125%;*/
+     border-radius: 20px 0;
+}
+.module55 h2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 0.7rem 0.7rem;
+    color: white;
+    margin: 0;
+    font-size: 16px;
+    top: auto;
+    line-height:2.5rem
+    border-radius: 20px 0;
+}
+
+.opp5 h2 {
+  background: rgba(255, 255, 255, 0.5);
+  color: #501214;
+}
